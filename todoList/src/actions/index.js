@@ -18,3 +18,15 @@ export const toggleTodo = id => {
     id
   }
 }
+export const setBlackPoint = index =>{
+  return {
+    type:'SET_BLACK_POINT',
+    index
+  }
+}
+export const setWhitePoint = index =>{
+  return {
+    type:'SET_WHITE_POINT',
+    index
+  }
+}
