@@ -1,15 +1,19 @@
 import React from 'react'
 import {render} from 'react-dom'
-import {Provider} from 'react-redux'
-import { createStore } from 'redux'
+// import {Provider} from 'react-redux'
+// import { createStore } from 'redux'
 import todoApp from './reducers'
 import App from './components/App'
 import Chess from './components/Chess'
-let store = createStore(todoApp)
+import reducer from "./reducers/reducer"
+
+// let store = createStore(setpoint)
 
 render(
-  <Provider store={store}>
+ /* <Provider store={store}>
+    <App/>
    <Chess/>
-  </Provider>,
+  </Provider>,*/
+  <Chess />,
   document.getElementById('root')
 )
