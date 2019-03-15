@@ -24,9 +24,9 @@ export const setPoint = position =>{
     position
   }
 }
-export const setWhitePoint = index =>{
+export const gameStart  = state=>{
   return {
-    type:'SET_WHITE_POINT',
-    index
+    type:'GAME_START',
+    state
   }
 }
