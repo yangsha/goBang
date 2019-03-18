@@ -4,7 +4,7 @@ import ChessRow from './ChessRow'
 
 
 const Chess = () =>(
-   <ChessRow/>
+  <ChessRow/>
 )
 
 export default Chess
